@@ -3,16 +3,19 @@ html, body{
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
-.my_header{
+header{
     width: 100%;
-    height: 8vh;
+    margin: 0 auto;
+}
+.my_header{
+    width: 75%;
+    margin: 5px 0;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 .triangle{
     width: 49%;
-    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -22,7 +25,7 @@ html, body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .sites{
-    width: 49%;
+    width: 57%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -52,7 +55,7 @@ html, body{
 }
 .main_1{
     width: 100%;
-    height: 833px;
+    height: 70%;
     background-image: url('grandparents.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,19 +63,17 @@ html, body{
 }
 
 .block_1{
-    width: 300px;
-    height: 200px;
+    width: 20%;
     background-color: white;
     text-align: justify;
     color: rgb(163, 200, 58);
     position: absolute;
-    font-size: 48px;
-    top: 300px;
-    left: 40px;
-    padding: 25px 20px;
+    font-size: 45px;
+    top: 20%;
+    right: 15%;
+    padding: 30px 20px;
     line-height: 110%;
-    display: flex;
-    flex-direction: column;
+    
 }
 .cover{
     position: absolute;
@@ -80,8 +81,8 @@ html, body{
     right: 0;
     width: 0px;
     height: 0px;
-    border-top: 20px solid rgb(156, 192, 56);
-    border-right: 20px solid transparent;
+    border-top: 30px solid rgb(156, 192, 56);
+    border-right: 30px solid transparent;
     box-shadow: -7px 4px 7px rgba(199, 220, 179);
 }
 .cover_2{
@@ -90,12 +91,12 @@ html, body{
     right: 0;
     width: 0px;
     height: 0px;
-    border-bottom: 20px solid rgb(199, 220, 179);
-    border-left: 20px solid transparent;
+    border-bottom: 30px solid rgb(199, 220, 179);
+    border-left: 30px solid transparent;
 }
 .main_2{
     width: 100%;
-    height: 350px;
+    /* height: 350px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,8 +105,8 @@ html, body{
 }
 
 .options{
-    width: 833px;
-    height: 350px;
+    width: 75%;
+    padding: 3% 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -113,8 +114,8 @@ html, body{
     
 }
 .lack{
-    width: 140px;
-    height: 130px;
+    width: 180px;
+    height: 150px;
     background-color: rgb(156, 192, 56);
     font-size: 20px;
     padding: 20px;
@@ -123,6 +124,7 @@ html, body{
     position: relative;
     display: flex;
     flex-direction: column;
+    margin-right: 20px;
 }
 .main_2 div p{
     line-height: 140%;
@@ -155,18 +157,20 @@ html, body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 400px;
+    /* height: 400px; */
 }
 .family{
    display: flex;
     flex-direction: row; 
     justify-content: center;
     align-items: center;
-    width: 833px;
-    height: 400px;
+    width: 75%;
+    margin: 3%;
+    padding: 1% 0;
+    /* height: 400px; */
 }
 .family img{
-    width: 400px;
+    width: 50%;
     margin-right: 33px;
 }
 .family_div p{
@@ -203,24 +207,21 @@ html, body{
     width: 100%;
     background-image: url('woman.png');
     background-repeat: no-repeat;
-    height: 800px;
+    height: 70%;
     background-size: cover;
     position: relative;
 }
 .block_2{
-    width: 300px;
-    height: 200px;
+    width: 20%;
     background-color: rgb(156, 192, 56);
     text-align: justify;
     color: white;
     position: absolute;
-    font-size: 48px;
-    top: 300px;
-    left: 40px;
-    padding: 25px 20px;
+    font-size: 45px;
+    top: 20%;
+    left: 13%;
+    padding: 30px 20px;
     line-height: 110%;
-    display: flex;
-    flex-direction: column;
 }
 .block_2cover{
     position: absolute;
@@ -243,7 +244,7 @@ html, body{
 }
 .main_5{
     width: 100%;
-    height: 400px;
+    /* height: 400px; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -251,7 +252,8 @@ html, body{
 }
 
 .main_5_div{
-    width: 833px;
+    width: 75%;
+    margin: 3% 0;
 }
 .whattoknow{
     text-align: center;
@@ -265,8 +267,10 @@ html, body{
 .div_3_blocks{
     display: flex;
     flex-direction: row;
-    width: 833px;
-    margin-right: 10px;
+    width: 100%;
+}
+.div_3_blocks div{
+    margin-right: 5%;
 }
 .scobe{
     width: 35px;
@@ -289,7 +293,7 @@ html, body{
 }
 .main_6{
     width: 100%;
-    height: 400px;
+    /* height: 400px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -297,8 +301,9 @@ html, body{
     background-color: rgb(163, 200, 58);
 }
 .couple{
-    width: 833px;
-    height: 400px;
+    margin: 5% 0;
+    width: 75%;
+    /* height: 400px; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -308,15 +313,17 @@ html, body{
 .couple_img{
     background-image: url('Couple.png');
     background-size: cover;
-    width: 380px;
+    width: 50%;
     height: 240px;
+    margin-right: 5%;
 }
 .couple_text{
     background-color: white;
-    width: 340px;
+    width: 45%;
     height: 200px;
     padding: 20px;
     position: relative;
+    margin-right: 5%;
 }
 .couple_cover{
     position: absolute;
@@ -339,7 +346,7 @@ html, body{
 }
 .main_7{
     width: 100%;
-    height: 300px;
+    /* height: 300px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -347,16 +354,16 @@ html, body{
     background-color: white;
 }
 .people{
-    width: 833px;
-    height: 300px;
+    width: 75%;
+    margin: 5% 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 .people_1{
-    width: 220px;
-    height: 150px;
+    width: 25%;
+    /* height: 150px; */
     background-color: rgb(156, 192, 56);
     display: flex;
     flex-direction: column;
@@ -367,7 +374,7 @@ html, body{
 .people_img{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .img_people{
@@ -386,6 +393,10 @@ html, body{
     font-size: 13px;
     line-height: 130%;
     color: rgb(238, 230, 230);
+}
+.people_p ~ p{
+    font-size: 6em;
+    color: rgb(172, 207, 136);
 }
 .people_cover{
     position: absolute;
@@ -408,7 +419,7 @@ html, body{
 }
 .main_8{
     width: 100%;
-    height: 300px;
+    /* height: 300px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -416,16 +427,15 @@ html, body{
     background-color: rgb(246, 246, 246);
 }
 .last{
-    width: 833px;
-    height: 350px;
+    width: 75%;
+    margin: 5% 0;
     display: flex;
     flex-direction: row;
     position: relative;
-    align-items: center;
 }
 .navigation{
-    width: 200px;
-    height: 100px;
+    width: 25%;
+    /* height: 100px; */
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -450,16 +460,16 @@ html, body{
     color: rgb(156, 192, 56);
 }
 .follow_us{
-    width: 200px;
-    height: 100px;
+    width: 25%;
+    /* height: 100px; */
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: flex-start;
 }
 .our_location{
-    width: 200px;
-    height: 100px;
+    width: 25%;
+    /* height: 100px; */
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -560,22 +570,76 @@ a.psev1::before{
     border-right: 2px solid rgb(167, 162, 162);
     margin-right: 10px;
    }
-   @media screen and (max-width: 904px) and (min-width: 840px) {
-       .traning{
-        margin-right: -10px;
+   /* @media screen and  (min-width: 1200px){
+    .block_1{
+        width: 40%;
+        font-size: 6em;
+    }
+       .block_2{
+           width: 40%;
+           font-size: 6em;
+       }
+
+   } */
+   @media screen and  (min-width: 951px) and  (max-width: 1100px){
+    .block_1{
+        width: 40%;
+        font-size: 5em;
+    }
+       .block_2{
+           width: 40%;
+           font-size: 5em;
+       }
+       .my_header{
+           width: 76%;
        }
    }
-   @media screen and (max-width: 839px) {
+   @media screen and (min-width: 800px) and (max-width: 950px)  {
+    .traning{
+     margin-right: -10px;
+    }
+    .my_header{
+        width: 100%;
+    }
+    .block_1{
+        width: 40%;
+        font-size: 5em;
+    }
+       .block_2{
+           width: 40%;
+           font-size: 5em;
+       }
+       .family img{
+           height: 20vh;
+       }
+       .family_div p{
+           line-height: 130%;
+       }
+}
+   @media screen and (max-width: 799px) {
+    .triangle{
+        width: 44%;
+    }
+    .block_1{
+        width: 40%;
+        font-size: 4em;
+        left: 25%;
+    }
+       .block_2{
+           width: 40%;
+           font-size: 4em;
+           left: 25%;
+       }
     .options{
-        width: 99%;
-        height: 350px;
+        width: 90%;
+        /* height: 350px; */
     }
     .lack{
         width: 17%;
         height: 40%;
     }
     .family{
-        width: 100%;
+        width: 90%;
         height: 80%;
     }
     .family img{
@@ -583,24 +647,24 @@ a.psev1::before{
         height: 65%;
     }
     .main_5_div{
-        width: 100%;
+        width: 90%;
         padding: 1%;
     }
     .div_3_blocks{
         width: 100%;
     }
     .couple{
-        width: 98%;
+        width: 90%;
     }
     .people{
-        width: 98%;
+        width: 90%;
     }
     .people_1{
         width: 25%;
         height: 45%;
     }
     .last{
-        width: 98%;
+        width: 90%;
     }
     .navigation{
         width: 24%;
@@ -628,6 +692,100 @@ a.psev1::before{
     }
     .triangle_2{
        width: 98%;
+    }
+}
+@media screen and (max-width: 649px) {
+    .main_1{
+        height: 50%;
+    }
+    .main_4{
+        height: 50%;
+    }
+    .triangle{
+        width: 30%;
+    }
+.options{
+    flex-wrap: wrap;
+   }
+   .lack{
+       width: 35%;
+       margin: 2%;
+   }
+   .main_2 div p{
+       font-size: 15px;
+   }
+.family{
+    display: flex;
+    flex-direction: column;
+    }
+    .family img{
+        width: 90vw;
+        margin: 1%;
+    }
+    .family_p1{
+        font-size: 25px;
+    }
+    .family_p2{
+        font-size: 20px;
+    }
+    .family_p3{
+        font-size: 15px;
+    }
+    .family_div{
+        margin-top: 4%;
+    }
+    .div_3_blocks{
+        display: flex;
+        flex-direction: column;
+    }
+    .scobe, .scobe2{
+        margin-bottom: 3%;
+    }
+    .couple{
+        display: flex;
+        flex-direction: column;
+    }
+    .couple_text{
+        width: 90%;
+        height: 150px;
+        margin-top: 4%;
+    }
+    .people{
+        display: flex;
+        flex-direction: column;
+    }
+    .people_1{
+        width: 96%;
+        margin-bottom: 4%;
+    }
+    .people_img{
+        justify-content: space-around;
+    }
+    .people_p{
+        font-size: 20px;
+    }
+    .people_p2{
+        font-size: 15px;
+    }
+    .last{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .navigation{
+        width: 45%;
+        margin-bottom: 5%;
+    }
+    .follow_us{
+        width: 45%;
+    }
+    .our_location{
+        width: 45%;
+    }
+    .last_p{
+        font-size: 20px;
+    }
+    .last a{
+        font-size: 20px;
     }
 }
 
