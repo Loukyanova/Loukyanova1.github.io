@@ -199,7 +199,7 @@ header{
     }
 .family_p3{
     font-weight: normal;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 130%;
     color: rgb(99, 97, 97);
 }
@@ -550,13 +550,14 @@ a.psev1::before{
     float: left;
    }
    .triangle_2{
-    width: 833px;
-    height: 50px;
+    width: 75%;
+    /* height: 50px; */
     /* position: absolute;
     bottom: 0;
     left: 0; */
     font-weight: bold;
     font-size: 20px;
+    margin-bottom: 1%;
    }
    .triangle_2 a{
     text-decoration: none;
@@ -786,6 +787,122 @@ a.psev1::before{
     }
     .last a{
         font-size: 20px;
+    }
+}
+@media screen and (max-width: 649px){
+    .my_header{
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+    }
+    .triangle{
+        font-size: 2em;
+        margin-bottom: 1%;
+        }
+    .sites{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5em;
+    }
+    .block_1{
+        width: 40%;
+        height: 30%;
+        font-size: 3em;
+    }
+    .block_2{
+        height: 30%;
+        font-size: 3em;
+    }
+    .whattoknow{
+        font-size: 2em;
+    }
+    .family_p2{
+        font-size: 1.7em;
+    }
+    .family_p3{
+        font-size: 1.5em;
+    }
+    .couple_text{
+        height: 50%;
+    }
+    .people img{
+        width: 30%;
+        height: 30%;
+    }
+    .people_p{
+        font-size: 3em;
+    }
+    .people_p2{
+        font-size: 1.5em;
+    }
+    .last{
+        flex-direction: column;
+        align-items: center;
+    }
+    .navigation{
+        width: 90%;
+    }
+    .last_p{
+        font-size: 2em;
+    }
+    .last a{
+        font-size: 2em;
+    }
+    .follow_us{
+        width: 90%;
+        margin-bottom: 4%;
+    }
+    .our_location{
+        width: 90%;
+    }
+    .triangle_2{
+        font-size: 2em;
+    }
+    .triangle_2 span{
+        font-size: 1em;
+    }
+    .triangle_2 a{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 404px){
+    .sites{
+        width: 90%;
+    }
+    .block_1{
+        width: 47%;
+        font-size: 2.9em;
+    }
+    .block_2{
+        font-size: 2.5em;
+    }
+    .options{
+        display: flex;
+        flex-direction: column;
+    }
+    .lack{
+        width: 90%;
+    }
+    .lack h2{
+        font-size: 2em;
+        margin-bottom: 4%;
+        line-height: 150%;
+    }
+    .main_2 div p{
+        font-size: 1.5em;
+    }
+    .family_p1{
+        font-size: 2em;
+        line-height: 150%;
+    }
+    .family_p2{
+        font-size: 2em;
+    }
+    .whattoknow{
+        line-height: 150%;
+    }
+    .triangle_2{
+        line-height: 150%;
     }
 }
 
